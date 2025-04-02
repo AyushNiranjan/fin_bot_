@@ -12,7 +12,7 @@ from langchain_community.vectorstores import FAISS
 from langchain_core.documents import Document
 
 # Initialize LLM
-llm = ChatGroq(model_name="llama3-8b-8192", groq_api_key="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")
+llm = ChatGroq(model_name="llama3-8b-8192", groq_api_key="api")
 
 # Streamlit UI
 st.title("FinBot📈📈")
